@@ -26,7 +26,7 @@ Installation de Postgresql
 Création du rôle de connexion odoo
 ++++++++++++++++++++++++++++++++++
 
-Se connecter en tant utilisateur ``postgres``
+Se connecter en tant qu'utilisateur ``postgres``
 
 .. code-block:: bash
 
@@ -62,7 +62,7 @@ Création du dossier Odoo
     mkdir 15.0 && cd 15.0
     mkdir ce
 
-Récuperation du code source de Odoo
+Récupération du code source de Odoo
 ----------------------------------
 
 Installer git

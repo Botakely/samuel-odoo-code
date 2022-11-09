@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Odoo'
+project = 'Odoo Code'
 copyright = '2022, Samuel RAMAROSELY'
 author = 'Samuel RAMAROSELY'
 release = '0.1'
@@ -26,3 +26,10 @@ language = 'fr'
 import sphinx_rtd_theme
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+html_logo = "_static/odoo-code-icon.png"
+html_favicon = "_static/odoo-code-icon.png"
+html_theme_options = {
+    'display_version': False,
+    "style_nav_header_background": "#01939A",
+}

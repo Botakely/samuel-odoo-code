@@ -63,7 +63,7 @@ Création du dossier Odoo
     mkdir ce
 
 Récupération du code source de Odoo
-----------------------------------
+-----------------------------------
 
 Installer git
 
@@ -95,7 +95,7 @@ Installation des modules python
 
     source ~/odoo/15.0/.env/bin/activate
     pip3 install setuptools wheel
-    pip3 install -r requirements.txt
+    pip3 install -r ce/requirements.txt
 
 Lancer Odoo
 -----------
@@ -106,7 +106,7 @@ Lancer Odoo
 
 
 Installation de wkhtmltopdf
---------------------------
+---------------------------
 
 .. code-block:: bash
 
